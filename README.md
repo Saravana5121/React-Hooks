@@ -5,9 +5,13 @@
 useState() allows functional components to manage state without using class components
 
 **importing**
+```
 import React, { useState } from 'react';
+```
 **usage**
+```
 const [state, setState] = useState(initialState);
+```
 
 ## useEffect
 
@@ -21,13 +25,14 @@ useCallback is a hook in React that is used to memoize functions. It is similar 
 When you wrap a function with useCallback, React will memoize the function instance. This means that as long as the dependencies array remains the same, React will return the same instance of the function, optimizing performance by avoiding unnecessary re-renders in child components that depend on the function.
 
 **Syntax**
+```
 const memoizedCallback = useCallback(
   () => {
     // Function body
   },
   [/* dependencies array */]
 );
-
+```
 
 ## useContext
 useContext is a hook in React that allows you to consume values from a context without nesting multiple components. Context provides a way to pass data through the component tree without having to pass props down manually at every level.
