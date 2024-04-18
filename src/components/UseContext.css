@@ -1,0 +1,43 @@
+
+
+.panel-light {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .panel-dark {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .button-light {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-dark {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-light:hover,
+  .button-dark:hover {
+    background-color: #ccc;
+  }
+  
