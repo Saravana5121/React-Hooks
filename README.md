@@ -62,8 +62,15 @@ const memoizedValue = useMemo(() => {
 }, [dependencies]);
 ```
 
-## useRef
-
 ## useReducer
 
+useReducer is a hook in React that is used for managing complex state logic within functional components. It offers an alternative to the useState hook when the state logic involves multiple sub-values or when the next state depends on the previous one.
+
+The useReducer hook takes a reducer function and an initial state as arguments, and returns an array containing the current state and a dispatch function to dispatch actions to update the state.
+
+```
+const [state, dispatch] = useReducer(reducer, initialState);
+```
+
+## useRef
 ## useLayoutEffect
