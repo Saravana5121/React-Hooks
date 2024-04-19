@@ -73,4 +73,5 @@ const [state, dispatch] = useReducer(reducer, initialState);
 ```
 
 ## useRef
-## useLayoutEffect
+
+useRef is a hook in React that provides a way to persist mutable values across renders without causing re-renders when the value changes. It returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the entire lifetime of the component.
